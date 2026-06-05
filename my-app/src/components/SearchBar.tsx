@@ -1,13 +1,15 @@
 export default function SearchBar() {
     return (
-        <div className="h-16 flex items-center">
+        <div className="relative w-80">
+            <span className="absolute left-4 top-1/2 -translate-y-1/2">
+                <img className="w-5 h-5" src="https://icons.veryicon.com/png/o/miscellaneous/prototyping-tool/search-bar-01.png" alt="" />
+            </span>
+
             <input
                 type="text"
-                className="border border-gray-300 rounded-lg px-4 py-2 "
                 placeholder="Search"
+                className="w-full border rounded-xl py-3 pl-12"
             />
-
-              
         </div>
     );
 }

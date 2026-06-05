@@ -4,9 +4,8 @@ import Features from "./Features"
 export default function NavBar() {
     return (
         <div className="flex items-center min-w-full justify-center h-16">
-            <div className="flex justify-between bg-blue-400 w-[60%] ">
+            <div className="flex justify-between  w-[60%] ">
                 <div className="flex justify-center items-center  ">
-                    <img className="w-5 h-5" src="https://icons.veryicon.com/png/o/miscellaneous/prototyping-tool/search-bar-01.png" alt="" />
                     <SearchBar />
                 </div>
 
