@@ -9,7 +9,7 @@ export default function ProfileSection() {
         <div className="h-full rounded-xl ">
             <ProfileCard image={<UserRoundPen />} name="mohit" bannerImage={"https://t3.ftcdn.net/jpg/03/16/91/28/360_F_316912806_RCeHVmUx5LuBMi7MKYTY5arkE4I0DcpU.jpg"} description="Front End Developer full stack developer " location="Delhi" />
             <div className=" mt-4  border-1 border-black rounded-xl px-2 py-5">
-                <h1 className="text-sm">Gain exclusive site and content</h1>
+                <h1 className="text-sm">Gain exclusive site and content  </h1>
                 <h1 className="text-blue-800"> Redeem premium   for free</h1>
 
 
