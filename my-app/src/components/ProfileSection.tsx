@@ -18,7 +18,7 @@ export default function ProfileSection() {
 
             <div className="mt-4  border-1 border-black rounded-xl  px-2 py-5">
                 <div className="flex justify-between py-2 ">
-                    <p>Profile viewers</p>
+                    <p>Profile </p>
                     <p>123</p>
                 </div>
 
